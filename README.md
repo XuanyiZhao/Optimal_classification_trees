@@ -10,3 +10,10 @@ Motivated by the rapid development of optimization theory and hardware improveme
 ## Setup 
 Before the implementation, we need to finish the setup of Python interface with Gurobi.
 https://www.gurobi.com/resource/modeling-with-the-gurobi-python-interface/
+
+```shell
+from gurobipy import *
+import requests
+from io import StringIO
+m = Model('mip1')
+```
