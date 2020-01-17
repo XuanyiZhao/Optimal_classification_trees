@@ -13,7 +13,7 @@ https://www.gurobi.com/resource/modeling-with-the-gurobi-python-interface/
 
 ```shell
 from gurobipy import *
-import requests
 from io import StringIO
+import requests
 m = Model('mip1')
 ```
