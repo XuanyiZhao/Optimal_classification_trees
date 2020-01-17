@@ -8,7 +8,7 @@ http://www.mit.edu/~dbertsim/papers/Machine%20Learning%20under%20a%20Modern%20Op
 Motivated by the rapid development of optimization theory and hardware improvements, we can present this algorithm via mixed-integer optimization now.
 
 ## Setup 
-Before the implementation, we need to finish the setup of Python interface with Gurobi.
+Before the implementation, we need to finish the setup of Python interface with Gurobi (in order to import gurobipy).
 https://www.gurobi.com/resource/modeling-with-the-gurobi-python-interface/
 
 ```shell
@@ -16,4 +16,9 @@ from gurobipy import *
 from io import StringIO
 import requests
 m = Model('mip1')
+```
+
+After importing gurobipy and initializing a model, we can see this below the shell.
+```shell
+Academic license - for non-commercial use only
 ```
