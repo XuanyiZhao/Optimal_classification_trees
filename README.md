@@ -18,7 +18,7 @@ import requests
 m = Model('mip1')
 ```
 
-After importing gurobipy and initializing a model, we can see this below the shell.
+After importing gurobipy and initializing a model, we can see this below the shell. It is said that we successfully finished the setup.
 ```shell
 Academic license - for non-commercial use only
 ```
